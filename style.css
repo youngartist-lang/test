@@ -25,3 +25,14 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+main {
+  /* background: #0e0536; */
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+section {
+  background: #12063a;
+  border-radius: 24px;
+  margin-bottom: 40px;
+}
