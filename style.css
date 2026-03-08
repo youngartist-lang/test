@@ -53,6 +53,21 @@ img {
   padding: 5px;
   display: block;
   transition: 0.3;
+  margin-right: 24px;
+}
+.menu a:hover {
+  color: rgb(115, 98, 224);
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  overflow: hidden;
+  min-width: 140px;
+}
+.dropdown-menu:hover .dropdown {
+  display: block;
 }
 main {
   /* background: #0e0536; */
@@ -67,4 +82,18 @@ section {
 }
 .mywork {
   height: 600px;
+}
+a.arrow {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  display: block;
+  background-color: rgb(125, 148, 199);
+  width: 45px;
+  border-radius: 50%;
+  text-align: center;
+}
+a.arrow:hover {
+  background-color: rgb(190, 203, 233);
+  box-shadow: 0 0 15px rgb(109, 131, 180);
 }

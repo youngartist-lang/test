@@ -19,9 +19,15 @@
       <nav class="navbar">
         <img src="./image/logo.png" alt="logo" width="100" />
         <ul class="menu">
-          <li><a href="#home">головна</a></li>
-          <li><a href="#work1">на папері</a></li>
-          <li><a href="#work2">на комп'тері</a></li>
+          <li class="dropdown-menu">
+            <a href="#">☰</a>
+
+            <ul class="dropdown">
+              <li><a href="#home">головна</a></li>
+              <li><a href="#work1">на папері</a></li>
+              <li><a href="#work2">на комп'тері</a></li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <p>status</p>
@@ -35,15 +41,11 @@
       <section id="work1" class="mywork">
         моі роботи на папері
 
-        <a href="#home"
-          ><img src="./image/arrow.png" alt="стрілка" width="50"
-        /></a>
+        <a href="#home" class="arrow">⬆</a>
       </section>
       <section id="work2" class="mywork">
         моі роботи на комп'ютері
-        <a href="#home"
-          ><img src="./image/arrow.png" alt="стрілка" width="50"
-        /></a>
+        <a href="#home" class="arrow">⬆</a>
       </section>
     </main>
     <footer>copyright2026</footer>
