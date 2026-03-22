@@ -32,7 +32,6 @@ h1 {
   text-align: center;
 }
 .navbar {
-  position: fixed;
   top: 0;
   width: 100%;
   display: flex;
@@ -40,6 +39,8 @@ h1 {
   align-items: center;
   z-index: 1000;
   margin-top: 54px;
+  background-color: #342957;
+  padding: 16px;
 }
 img {
   margin-left: 40px;
@@ -79,9 +80,17 @@ section {
   background: #12063a;
   border-radius: 24px;
   margin-bottom: 40px;
+  box-shadow: 0px 0px 15px rgb(75, 92, 129);
+  padding: 24px;
 }
 .mywork {
-  height: 600px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.parrow {
+  display: flex;
+  justify-content: flex-end;
 }
 a.arrow {
   text-decoration: none;
@@ -96,4 +105,7 @@ a.arrow {
 a.arrow:hover {
   background-color: rgb(190, 203, 233);
   box-shadow: 0 0 15px rgb(109, 131, 180);
+}
+footer > img {
+  width: 50px;
 }
