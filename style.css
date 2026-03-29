@@ -106,6 +106,16 @@ a.arrow:hover {
   background-color: rgb(190, 203, 233);
   box-shadow: 0 0 15px rgb(109, 131, 180);
 }
-footer > img {
-  width: 50px;
+.cls-1 {
+  fill: #fff;
+  stroke: #000000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+footer {
+  width: 100%;
+  background-color: #342957;
+  a {
+    text-decoration: none;
+  }
 }
