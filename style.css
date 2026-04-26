@@ -92,20 +92,60 @@ section {
   flex-direction: column;
 }
 .myimage {
+  transition: all 0.3s ease;
   width: 1100px;
-  background-color: #fff;
+  /* background-color: #fff; */
   margin: 10px auto;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+.arrow-img {
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(125, 148, 199);
+  margin: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #000000;
+}
+.arrow-img:hover {
+  background-color: rgb(190, 203, 233);
+  box-shadow: 0 0 15px rgb(109, 131, 180);
+}
+.carusel-wrap {
+  background-color: #342957;
+  overflow-x: auto;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding: 15px;
+  width: 1000px;
+}
+.carusel-wrap::-webkit-scrollbar {
+  display: none;
 }
 .carusel {
   display: flex;
-  justify-content: space-around;
-  /* gap: 10px; */
+  justify-content: space-between;
 }
 .carusel img {
-  display: block;
-  width: 150px;
+  /* display: block; */
+  width: 165px;
+  height: 165px;
+  object-fit: cover;
+  border-radius: 12px;
+  scroll-snap-align: start;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+.carusel img:hover {
+  transform: scale(1.05) translateY(-10px);
 }
 .parrow {
   display: flex;
