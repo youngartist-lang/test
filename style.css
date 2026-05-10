@@ -185,6 +185,34 @@ section {
 .lightbox:target img {
   transform: scale(1);
 }
+.close,
+.downloadimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(125, 148, 199);
+  color: #000000;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: 0.3s;
+  position: absolute;
+}
+.close:hover,
+.downloadimg:hover {
+  background-color: rgb(190, 203, 233);
+  box-shadow: 0 0 15px rgb(109, 131, 180);
+}
+.close {
+  top: 50px;
+  right: 50px;
+}
+.downloadimg {
+  top: 50px;
+  right: 110px;
+}
 a.arrow {
   text-decoration: none;
   color: rgb(0, 0, 0);
