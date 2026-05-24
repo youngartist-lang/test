@@ -75,6 +75,7 @@ footer li a:hover {
 }
 .dropdown-menu:hover .dropdown {
   display: block;
+  background-color: #12063a;
 }
 main {
   /* background: #0e0536; */
