@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мистецтво Кави | Мінімалістична кав'ярня</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <a href="#" class="logo">Coffee<span>Minimal</span></a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="#home">Головна</a></li>
+            <li><a href="#menu">Меню</a></li>
+            <li><a href="#about">Про нас</a></li>
+            <li><a href="#contact">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-content">
+          <h1>Твоя ідеальна чашка кави</h1>
+          <p>
+            Зупинись на мить. Насолодись тишею та глибоким смаком
+            свіжообсмаженої кави у серці міста.
+          </p>
+          <a href="#menu" class="btn">Переглянути меню</a>
+        </div>
+      </section>
+
+      <section id="menu" class="menu section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Наше Меню</h2>
+            <p>Обрана класика та авторські напої</p>
+          </div>
+          <div class="menu-grid">
+            <article class="menu-card">
+              <img
+                src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=400&q=80"
+                alt="Еспресо в білій чашці"
+              />
+              <div class="menu-card-content">
+                <h3>Еспресо</h3>
+                <p>Насичений та міцний, класичний італійський рецепт.</p>
+                <span class="price">45 ₴</span>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img
+                src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=400&q=80"
+                alt="Капучино з латте-артом"
+              />
+              <div class="menu-card-content">
+                <h3>Капучино</h3>
+                <p>
+                  Ідеальний баланс еспресо, гарячого молока та ніжної пінки.
+                </p>
+                <span class="price">65 ₴</span>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img
+                src="https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&w=400&q=80"
+                alt="Холодна кава айс-латте"
+              />
+              <div class="menu-card-content">
+                <h3>Айс Латте</h3>
+                <p>Освіжаючий кавовий напій з льодом для теплих днів.</p>
+                <span class="price">75 ₴</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="container about-inner">
+          <div class="about-text">
+            <h2>Про нас</h2>
+            <p>
+              Ми віримо, що кава — це не просто напій, це ритуал. Наша кав'ярня
+              створена для того, щоб ви могли відволіктися від міської метушні,
+              насолодитися мінімалістичним інтер'єром та дійсно якісним зерном,
+              яке ми власноруч відбираємо та обсмажуємо.
+            </p>
+          </div>
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80"
+              alt="Інтер'єр мінімалістичної кав'ярні"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Завітайте до нас</h2>
+            <p>Ми завжди раді бачити вас</p>
+          </div>
+          <div class="contact-inner">
+            <div class="contact-info">
+              <h3>Контакти</h3>
+              <p><strong>Адреса:</strong> вул. Кавова, 15, м. Київ</p>
+              <p><strong>Години роботи:</strong> Пн-Нд: 08:00 - 21:00</p>
+              <p><strong>Телефон:</strong> +38 (099) 123-45-67</p>
+            </div>
+            <form class="contact-form">
+              <input
+                type="text"
+                placeholder="Ваше ім'я"
+                required
+                aria-label="Ваше ім'я"
+              />
+              <input
+                type="email"
+                placeholder="Ваш Email"
+                required
+                aria-label="Ваш Email"
+              />
+              <textarea
+                rows="4"
+                placeholder="Повідомлення"
+                required
+                aria-label="Ваше повідомлення"
+              ></textarea>
+              <button type="submit" class="btn">Відправити</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Coffee Minimal. Всі права захищено.</p>
+      </div>
+    </footer>
+  </body>
+</html>
